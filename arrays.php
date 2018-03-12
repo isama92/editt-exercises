@@ -35,11 +35,6 @@ Restituirà in uscita un array così fatto:
 */
 
 function pratoFiorito($arr){
-	/*
-		l'ho fatto in maniera un po' particolare per non fare una delle solite soluzioni
-		in cui si scrivono tutte le combinazioni di indici a mano con tanti IF per fare i controlli degli indici out of bound
-	*/
-
 	$directions = [
 		[-1, -1],
 		[ 0, -1],
